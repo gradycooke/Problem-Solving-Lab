@@ -2,9 +2,11 @@
 
 This repository is a growing collection of exploratory coding projects and algorithmic challenges focused on math, logic, and computational thinking. It serves as a space to develop and refine problem-solving skills through hands-on programming in Python.
 
-## Current Project: Prime Number Analysis
+## Current Projects
 
-The first notebook in the lab, `Prime_Numbers.ipynb`, includes a suite of tools for exploring the behavior and distribution of prime numbers. It answers questions like:
+### Prime Number Analysis (`Prime_Numbers.ipynb`)
+
+The first notebook in the lab includes a suite of tools for exploring the behavior and distribution of prime numbers. It answers questions like:
 
 - How many primes exist up to a given number?
 - What is the sum, product, and average gap of those primes?
@@ -12,13 +14,20 @@ The first notebook in the lab, `Prime_Numbers.ipynb`, includes a suite of tools 
 - How frequently do primes end in a given digit?
 - How does the prime count compare to the Prime Number Theorem's approximation?
 
-### Features
-- Efficient prime generation and filtering
-- Palindromic prime detection
-- Digit-ending and prime gap analysis
-- Prime count vs log approximation visualization
-- Summary reporting with clean formatting
-- Multiple visualizations powered by Matplotlib and Pandas
+---
+
+### String Analysis (`Strings.ipynb`)
+
+This notebook explores the structure and behavior of English text using a variety of custom functions.
+
+- Normalize and clean strings for analysis
+- Detect palindromes and anagrams
+- Count character types (vowels, consonants, digits, punctuation, etc.)
+- Visualize letter frequencies and bigram heatmaps
+- Identify longest words, frequent letters, and repeating substrings
+- Pangram detection and composition summaries
+
+---
 
 ## Tools Used
 
@@ -27,11 +36,14 @@ The first notebook in the lab, `Prime_Numbers.ipynb`, includes a suite of tools 
 - Pandas
 - Matplotlib
 - SciPy (for regression analysis)
-- Math (logarithmic comparisons)
+- re (regex for string preprocessing)
+- collections (for frequency analysis)
+- string (for predefined character sets and text manipulation)
 
 ## Files
 
-- `Prime_Numbers.ipynb` — Notebook with all prime-related functions, visualizations, and analysis
+- `Prime_Numbers.ipynb` — Notebook with prime-related functions, visualizations, and analysis
+- `Strings.ipynb` — Notebook for advanced string analysis and character-based visualizations
 
 ## Author
 
